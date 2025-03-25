@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Climate</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+		
+		.climate-container {
+			width: 80%;
+			margin: 40px auto;
+			padding: 20px;
+			background-color: #fff;
+			border: 1px solid #ddd;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		.climate-header {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px;
+			border-bottom: 1px solid #ddd;
+		}
+		
+		.climate-data {
+			margin-top: 20px;
+		}
+		
+		.climate-data ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		.climate-data li {
+			margin-bottom: 10px;
+		}
+		
+		.climate-data span {
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<div class="climate-container">
+		<div class="climate-header">
+			<h1>Climate</h1>
+		</div>
+		<div class="climate-data">
+			<ul>
+				<li><span>Temperature:</span> 25°C</li>
+				<li><span>Humidity:</span> 60%</li>
+				<li><span>Wind Speed:</span> 10 km/h</li>
+				<li><span>Weather Condition:</span> Sunny</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
+```

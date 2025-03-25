@@ -1,0 +1,64 @@
+
+/* Style the climate container */
+.climate-container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the climate header */
+.climate-header {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style the climate data */
+.climate-data {
+  margin-top: 20px;
+}
+
+/* Style the climate data list */
+.climate-data ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the climate data list items */
+.climate-data li {
+  margin-bottom: 10px;
+}
+
+/* Style the climate data labels */
+.climate-data span {
+  font-weight: bold;
+}
+
+/* Style the temperature */
+#temperature {
+  font-size: 24px;
+  color: #666;
+}
+
+/* Style the humidity */
+#humidity {
+  font-size: 18px;
+  color: #999;
+}
+
+/* Style the wind speed */
+#wind-speed {
+  font-size: 18px;
+  color: #999;
+}
+
+/* Style the weather condition */
+#weather-condition {
+  font-size: 18px;
+  color: #999;
+}
